@@ -17,49 +17,49 @@
             <a class="nav-link" href="#Vad är bootstrap">Bootsrap 4</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Element.html">Element</a>
+            <a class="nav-link" href="#Element">Element</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#HTML.html">HTML</a>
+            <a class="nav-link" href="#HTML">HTML</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#ID.html">ID</a>
+            <a class="nav-link" href="#ID">ID</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Class.html">Class</a>
+            <a class="nav-link" href="#Class">Class</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Meta.html">Meta</a>
+            <a class="nav-link" href="#Meta">Meta</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Responsive.html">Responsive</a>
+            <a class="nav-link" href="#Responsive">Responsive</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#http.html">http</a>
+            <a class="nav-link" href="#http">http</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#https.html">https</a>
+            <a class="nav-link" href="#https">https</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#compressed data.html">compressed data</a>
+            <a class="nav-link" href="#compressed data">compressed data</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#CDN.html">CDN</a>
+            <a class="nav-link" href="#CDN">CDN</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#local bootstrap.html">local bootstrap</a>
+            <a class="nav-link" href="#local bootstrap">local bootstrap</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#JQuery.html">JQuery</a>
+            <a class="nav-link" href="#JQuery">JQuery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Flexbox.html">Flexbox</a>
+            <a class="nav-link" href="#Flexbox">Flexbox</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#grid.html">grid</a>
+            <a class="nav-link" href="#grid">grid</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#code snippets.html">code snippets</a>
+            <a class="nav-link" href="#code snippets">code snippets</a>
           </li>
           
         </ul>
@@ -73,100 +73,114 @@
     <div class="caption"><h1>GUIDE FÖR BOOTRSTRAP 4</h1></div> <img src="bootstrap-illustration.png">
       
         <div class="container-flex1">            
-            <h1>Element</h1>
-            <p>Ett element är en något Default inom html, det är den som har en start tag och en slut tag, så som p och div.</p>
+            <h1 id="Element">Element</h1>
+            <p>Ett element är en något Default inom html, det är den som har en start tag och en slut tag, så som p och div. HTML-element kan kapslas/inneslutas, det betyder att element kan innehålla andra element. Alla HTML dokument består av kapslade HTML element. Det spelar inten roll om Det står P eller p, båda är samma när det kommer till html så liten bokstav eller stor spelar ingen roll. De viktigaste elementen är html taggen, den definerar rooten av dokumentet. Sen krävs också body för att definera dokumentets kropp. Sedan finns det också h1,h2....h6 för heading.
+              </p>
             <img src="html-element.png" height="300" width="800">
         </div>
 
         <div class="container-flex2">            
-            <h1>HTML</h1>
-            <p>HTML står för HyperText Markup Language och används till att skapa hemsidor, här är ett exempel:</p>
+            <h1 id="HTML">HTML</h1>
+            <p>HTML sidorna är uppbyggda på HTML element. Med HTML-konstruktioner kan bilder och andra objekt, såsom interaktiva former anävndas i den renderade sidan. HTML ger ett sätt att skapa strukturerade dokument genom att beteckna strukturell semantik för text som rubriker, stycken, listor, länkar, citat och andra objekt. HTML-element avgränsas av taggar, skrivna med vinkelparenteser. Taggar som img och input introducerar direkt innehåll på sidan. Andra taggar som p omger och ger information om dokumenttext och kan inkludera andra taggar som underelement. Webbläsare visar inte HTML-taggarna, men använder dem för att tolka innehållet på sidan.
+            </p>
             <img src="220px-Html-source-code3.png" height="300" width="500"> <img src="köpa-hemsida-mobilanpassad.jpg" width="500" height="300">
         </div>
         <!--Jag har också lagt bilder för varje div som jag tycker visar/förklarar på en ganska tydligt sätt vad begrepper är också. -->
         <!--Jag har också ändrat storlek på vissa bilder för att det inte ska se så tomt ut i vissa sidor. -->
 
         <div class="container-flex3">            
-            <h1>ID</h1>
-            <p>ID används för att kunna rikta en specefik style deklaration i en stylesheet, den är ganska lik class, bara att skillnaden är att ett id ska vara unikt på en webbsida. Det finns ingen speciell regler för vilka element som får använda sig av id, men typiskt använder man id på större områden som exempelvis sidomenyer, behållare för artikeltext, sidhuvud, sidfot och så vidare.</p>
+            <h1 id="ID">ID</h1>
+            <p>ID används för att kunna rikta en specefik rad i ett html dokument, den är ganska lik class, bara att skillnaden är att ett id är unikt för varje dokument. Det finns ingen speciell regler för vilka element som får använda sig av id, men typiskt använder man id på större områden som exempelvis sidomenyer, behållare för artikeltext, sidhuvud, sidfot och så vidare. ID används på så sätt att du linkar en header med id och sedan länkar samma sak i navbar så kommer du skickas direkt ner till den headern om du klickar på en knapp som exempel. </p>
             <img src="xxA1o.jpg">
         </div>
         
         <div class="container-flex4">            
-            <h1>Class</h1>
-            <p>Class fungerar på ungefär exakt samma sätt som id men med dessa skillnader:
+            <h1 id="Class">Class</h1>
+            <p>Class används för att länka ett class namn till stylesheeten, exempel på användning av detta kan vara att du använder dig utav div, innaför div sätter du class=container, detta gör att i stylesheeten är den länkad till .container. Class fungerar på ungefär exakt samma sätt som id men med dessa skillnader:
 
               1. Samma class kan användas till flera element på en webbsida.
-              2. Du kan inte direktlänka till en class.</p>
+              2. Du kan inte direktlänka till en class.
+            </p>
             <img src="sjGgc.png">
         </div>
 
         <div class="container-flex5">            
-            <h1>Meta</h1>
+            <h1 id="Meta">Meta</h1>
             <p> Meta taggen definierar metadata om HTML-dokumentet. Den är data information om data.
-              meta taggen visas alltid i elementet head och används vanligtvis för att ange teckenuppsättning, sidbeskrivning, nyckelord, dokumentförfattare och visningsinställninga
-              Metadata visas inte på sidan, men dem analyseras av maskinen. Webbläsare, sökmotorer och andra webbtjänster använder metadata.</p>
+              meta taggen visas alltid i elementet head och används vanligtvis för att ange teckenuppsättning, sidbeskrivning, nyckelord, dokumentförfattare och visningsinställninga.
+              Metadata visas inte på sidan, men dem analyseras av maskinen. Webbläsare, sökmotorer och andra webbtjänster använder metadata. </p>
             <img src="Skärmklipp.PNG">
         </div>
 
         <div class="container-flex6">            
-            <h1>Responsive</h1>
-            <p>Responsive web design är hur man får hemsidan att se snygg ut på alla olika enheter (mobil, dator osv). Responsive är hur man använder sig utav html och css för att omforma allt så det ser br  a ut överallt. </p>
+            <h1 id="Responsive">Responsive</h1>
+            <p>Responsive web design är hur man får hemsidan att se snygg ut på alla olika enheter (mobil, dator osv). Responsive är hur man använder sig utav html och css för att omforma allt så det ser bra ut överallt. För att skapa en responsive hemsida så behöver man använda meta taggen till alla sidorna, ett exempel är: meta name="viewport" content="width=device-width, initial-scale=1.0".
+              Detta gör att du kan sätta en viewport till din sida vilket ger sidan instruktiner att kunna kontrollera sidans dimensioner och storlek.</p>
             <img src="images.jpg" height="400" width="800">
         </div>
 
         <div class="container-flex7">             
-            <h1>http</h1>
-            <p>http står i början av en hemsida, dens uppgift är att när man tex klickar på en länk så kommer du begära ankomst vilket du får när hemsidan kommer upp. Dock är http inte så säkert då dens fokus är att visa informationen som kommer mer än hur informationen kommer.</p>
+            <h1 id="http">http</h1>
+            <p>http står i början av en hemsida, dens uppgift är att när man tex klickar på en länk så kommer du begära ankomst vilket du får när hemsidan kommer upp. Dock är http inte så säkert då dens fokus är att visa informationen som kommer mer än hur informationen kommer. HTTP står för Hypertext Transfer Protocol, den är grunden för datakommunikation för Internet, där hypertextdokument inkluderar hyperlänkar till andra resurser som användaren lätt kan komma åt, till exempel genom att klicka med musen eller genom att trycka på skärmen i en webbläsare.
+            </p>
             <img src="shutterstock_572527735-min.jpg" width="400px" height="350px">
         </div>
 
         <div class="container-flex8">            
-            <h1>https</h1>
-            <p>https är likadant som http bara att den är mer avancerad och mycket säkrare att använda. Om hemsidan begär att du ska skriva lödsenord så är det viktigt att kolla att det är https först. </p>
+            <h1 id="https">https</h1>
+            <p>https är likadant som http bara att den är mer avancerad och mycket säkrare att använda. Om hemsidan begär att du ska skriva lödsenord så är det viktigt att kolla att det är https först. Det står för Hypertext Transfer Protocol Secure och är det då den inte ska kunna avlyssnas av tredje part och användaren skall kunna lita på att webbservern </p>
             <img src="https-does-not-mean-safe-featured.jpg" width="500px" height="400px">
         </div>
 
         <div class="container-flex9">            
-            <h1>compressed data</h1>
-            <p>compressed data är hur man modifierar, konverterar små bitar av data så att det tar mindre utrymme.</p>
+            <h1 id="compressed data">compressed data</h1>
+            <p>compressed data är hur man modifierar, konverterar små bitar av data så att det tar mindre utrymme. Varje speciell komprimering är antingen förlustfri eller förlustfri. Förlustfri komprimering minskar bitar genom att identifiera och eliminera statistisk redundans. Ingen information går förlorad vid förlustfri komprimering. Förlust av komprimering minskar bitar genom att ta bort onödig eller mindre viktig information. [3] Vanligtvis kallas en enhet som utför datakomprimering som en kodare och en som utför reverseringen av processen (dekompression) som en avkodare.
+              . </p>
             <img src="4139.1553071738.jpg">
         </div>
 
         <div class="container-flex10">            
-            <h1>CDN</h1>
-            <p>CDN står för Content Distribution Network och är ett nätverk av noder på olika geografiska platser som hjälper till att distribuera innehåll</p>
+            <h1 id="CDN">CDN</h1>
+            <p>CDN står för Content Distribution Network och är ett nätverk av noder på olika geografiska platser som hjälper till att distribuera innehåll. Avsikten med dessa nätverk är att tillhandahålla nättjänster nära användare, för ökad driftsäkerhet och prestanda samt minskad latens. En CDN möjliggör snabb överföring av tillgångar som behövs för att ladda internetinnehåll inklusive HTML-sidor, javaskriptfiler, formatmallar, bilder och videor.
+            </p>
             <img src="download.png" height="400" width="800">
         </div>
 
         <div class="container-flex1">            
-            <h1>local bootstrap</h1>
-            <p>Local bootstrap är när man skickar in en link istället för laddar ner boostrap. Det är det snabbaste sättet att komma igång med bootstrap.</p>
+            <h1 id="local bootstrap">local bootstrap</h1>
+            <p>Local bootstrap är när man skickar in en link istället för laddar ner boostrap. Det är det snabbaste sättet att komma igång med bootstrap. Användingen av kommer göra allting snabbare då det är en förskriven stylesheet som hjälper en designa hemsidor mycket snabbare på ett bra sätt. Den innehåller CSS- och JavaScript-baserade designmallar för typografi, formulär, knappar, navigering och andra gränssnittskomponenter.   
+            </p>
             <img src="tEV1n.jpg" height="600" width="800">
         </div>
 
         <div class="container-flex2">            
-            <h1>JQuery</h1>
-            <p>JQuery är en typ av kod, såsom javascript men den tar från javascript libraryn. Den förkortar allt också så det är som "write less, do more".</p>
+            <h1 id="JQuery">JQuery</h1>
+            <p>JQuery är en typ av kod, såsom javascript men den tar från javascript libraryn. Den förkortar allt också så det är som "write less, do more". JQuery gör det lätt för folk att kunna göra vanliga uppgifter såsom manipulera hemsidan, svara på användarhändelser, data från servers, skapa effekter och animationer och mycket mer.
+            </p>
             <img src="what-is-jquery-1.png">
         </div>
 
         <div class="container-flex3">            
-            <h1>Flexbox</h1>
-            <p>Flexbox är ett modernare sätt att skapa layout på webbsidor. Det är som det låter, man kan flytta runt boxar.</p>
+            <h1 id="Flexbox">Flexbox</h1>
+            <p>Flexbox är ett modernare sätt att skapa layout på webbsidor. Det är som det låter, man kan flytta runt boxar. Flexbox går att använda till väldigt mycket saker, det är väldigt simpelt att skapa en affär hemsida med det då du kan lägga upp massa bilder brevid varandra i ordning och göra så det ser snyggy ut (samma storlek osv). Det finns massa kommandon inom flexbox som gör sakerna automatiskt såsom med storlek förändring.</p>
             <img src="kommer.png" height="400" width="800">
         </div>
 
         <div class="container-flex4">            
-            <h1>grid</h1>
-            <p>CSS Grid Layout Module är ett grid-based layout system, med rader och kolumner, Detta gör det lättaree att designa hemsidor utan att använda sig utav float och positioning.</p>
+            <h1 id="grid">grid</h1>
+            <p>grid eller CSS Grid Layout gör så att man kan dela stora delar eller definera storlek, position och lager mellan olika delar som är uppbygt av html.
+              såsom tabbeller, kan grid layout låta användaren sätta in element i kolumner och rader. Men många fler layouter är antingen möjliga eller enklare med CSS-rutnät än med tabeller. Till exempel kan en rutnätbehållares underelement placera sig så att de faktiskt överlappar och lager, liknande CSS-placerade element.
+              </p>
             <img src="grid_lines.png">
         </div>
 
         <div class="container-flex5">            
-            <h1>code snippets</h1>
-            <p>En HTML snippet är en liten mängd av source code i en HTML markup.</p>
-            <img src="2-Code-Snippets.png">
+            <h1 id="code snippets">code snippets</h1>
+            <p>En HTML snippet är en liten mängd av source code i en HTML markup. I webbutveckling innehåller utdrag ofta HTML-kod. Ett HTML-kodavsnitt kan användas för att infoga en formaterad tabell, ett webbformulär eller ett textblock. Text editors som använder snippets kan skapa en mekanism som kommer åt katalog, och separera "utdrag" på samma sätt som textredigeraren och operativsystemet tillåter hantering av separata filer. Dessa grundläggande hanteringsförmågor inkluderar operationer som att visa, lägga till, redigera, radera, sortera, filtrera, gruppera, byta namn på och lagra utdrag i ett arkiv, katalog eller databas. 
+
+
+              </p>
+            <img src="2-Code-Snippets.png" height="600px" width="800px">
         </div>
 
         </div>
